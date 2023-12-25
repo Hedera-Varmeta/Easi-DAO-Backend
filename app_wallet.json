@@ -1,0 +1,20 @@
+  {
+    "apps": [
+        {
+            "name": "hedera-dao-api",
+            "script": "dist/main.js",
+            "env": {
+              "NODE_ENV": "dev-api",
+              "PORT": "3031",
+              "HTTPS_PORT": "3431"
+            }
+        },
+        {
+            "name": "hedera-dao-worker",
+            "script": "dist/main.js",
+            "env": {
+              "NODE_ENV": "dev-worker"
+            }
+        }
+    ]
+}

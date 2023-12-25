@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "token_scheduler",
+      "script": "dist/main.js",
+      "env": {
+        "NODE_ENV": "dev-api"
+      }
+    }
+  ]
+}
